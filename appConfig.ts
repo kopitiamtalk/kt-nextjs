@@ -12,16 +12,16 @@ export const defaultMode: DarkMode = 'light'
 export const overrideOS: boolean = true
 
 // Images
-export const nextFeatureImages: boolean = true
-export const nextInlineImages: boolean = true
+export const nextFeatureImages: boolean = false
+export const nextInlineImages: boolean = false
 export const imageQuality: number = 80
-export const sourceImages: boolean = false
+export const sourceImages: boolean = true
 
 // RSS
 export const rssFeed: boolean = true
 
 // Ghost Member Subscriptions
-export const memberSubscriptions: boolean = true
+export const memberSubscriptions: boolean = false
 
 // Commenting system
 export type CommentingSystem = 'commento' | 'disqus' | null
@@ -35,7 +35,7 @@ export const prism: boolean = true
 export const prismIgnoreMissing: boolean = true
 
 // Contact Page
-export const contactPage: boolean = true
+export const contactPage: boolean = false
 export const customPage = {}
 
 // Table of Contents
